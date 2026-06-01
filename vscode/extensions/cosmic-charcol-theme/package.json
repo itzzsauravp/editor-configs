@@ -1,0 +1,28 @@
+{
+	"name": "cosmic-charcol-theme",
+	"displayName": "Cosmic Charcol",
+	"description": "A deep charcoal dark theme with vivid syntax colors — ported from Zed",
+	"version": "1.0.0",
+	"author": "Saurav Parajulee",
+	"publisher": "saurav-parajulee",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cosmic Charcol",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cosmic-charcol-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1780209486256,
+		"targetPlatform": "undefined",
+		"size": 20637
+	}
+}
