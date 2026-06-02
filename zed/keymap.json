@@ -26,6 +26,13 @@
         }
     },
 
+    {
+        "context": "Editor && vim_mode == normal && !VimWaiting",
+        "bindings": {
+            "space z": "workspace::ToggleZoom"
+        }
+    },
+
     // 3. EDITOR PANE NAVIGATION (all vim modes)
     //    ctrl-hjkl moves between splits only, never opens panels
     {
@@ -62,6 +69,7 @@
             "ctrl-k": "workspace::ActivatePaneUp",
             "ctrl-b": "workspace::ToggleLeftDock",
             "ctrl-/": "workspace::ToggleBottomDock",
+            "ctrl-f": "workspace::ToggleZoom",
             "ctrl-enter": "workspace::NewTerminal",
             "alt-\\": "pane::SplitRight",
             "alt-l": "pane::SplitRight",
@@ -87,3 +95,4 @@
         }
     }
 ]
+
