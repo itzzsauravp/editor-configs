@@ -1,0 +1,20 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Binaries & archives (install these system-wide, not in the config)
+lazygit
+lazydocker
+lazysql
+*.tar.gz
+*.zip
+*.AppImage
+
+# OS junk
+.DS_Store
+Thumbs.db
