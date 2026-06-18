@@ -55,13 +55,13 @@
         "git_status": true,
         "folder_icons": true,
         "file_icons": true,
-        "entry_spacing": "comfortable",
+        "entry_spacing": "standard",
         "default_width": 300.0,
         "dock": "left"
     },
     "terminal": {
         "font_family": "FiraCode Nerd Font",
-        "font_size": 15.0
+        "font_size": 13.0
     },
     "autosave": {
         "after_delay": {
@@ -70,7 +70,7 @@
     },
     "text_rendering_mode": "platform_default",
     "ui_font_weight": 100.0,
-    "buffer_line_height": "comfortable",
+    "buffer_line_height": "standard",
     "buffer_font_weight": 100.0,
     "buffer_font_family": "FiraCode Nerd Font",
     "wsl_connections": [
@@ -79,10 +79,10 @@
             "user": null,
             "projects": [
                 {
-                    "paths": ["/home/sauravp"]
+                    "paths": ["/home/sauravp/yipl/npbmis"]
                 },
                 {
-                    "paths": ["/home/sauravp/yipl/pbmis-lumbini/server"]
+                    "paths": ["/home/sauravp/yipl/pbmis-lumbini"]
                 }
             ]
         }
@@ -96,13 +96,13 @@
         "light": "Material Icon Theme",
         "dark": "Material Icon Theme"
     },
-    "buffer_font_size": 15,
-    "ui_font_size": 15,
-    "agent_font_size": 15,
+    "buffer_font_size": 13,
+    "ui_font_size": 13,
+    "agent_ui_font_size": 13,
     "theme": {
         "mode": "dark",
         "light": "One Light",
-        "dark": "Diffused Black Glass"
+        "dark": "Ayu Dark"
     },
     "auto_install_extensions": {
         "dockerfile": true,
