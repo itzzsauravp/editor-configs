@@ -9,16 +9,19 @@
 //
 //  FOR ZOOM LEVEL GO TO THE LOWEST AND THEN ZOOM IN 6 TIMES EXACTLY USING (CTRL + '+')
 {
+    "diff_view_style": "unified",
+    "ui_font_family": ".ZedSans",
     "show_edit_predictions": false,
     "edit_predictions": {
         "provider": "none"
     },
     "agent": {
-        "default_profile": "ask",
+        "default_profile": "write",
         "dock": "right",
         "default_model": {
-            "provider": "google",
-            "model": "gemini-2.5-flash",
+            "effort": "LOW",
+            "provider": "zed.dev",
+            "model": "gemini-3-flash",
             "enable_thinking": true
         },
         "favorite_models": [],
@@ -94,15 +97,15 @@
     "icon_theme": {
         "mode": "dark",
         "light": "Material Icon Theme",
-        "dark": "Material Icon Theme"
+        "dark": "Catppuccin Latte"
     },
-    "buffer_font_size": 13,
-    "ui_font_size": 13,
+    "buffer_font_size": 13.0,
+    "ui_font_size": 15.0,
     "agent_ui_font_size": 13,
     "theme": {
         "mode": "dark",
         "light": "One Light",
-        "dark": "Ayu Dark"
+        "dark": "Catppuccin Mocha"
     },
     "auto_install_extensions": {
         "dockerfile": true,
