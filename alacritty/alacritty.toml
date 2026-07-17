@@ -6,18 +6,36 @@ general.import = [
 program = "wsl.exe"
 args = ["--cd", "~"]
 
-
-
 [window]
-opacity = 1.0
-padding = { x = 5, y = 5 }
-
-
+opacity = 1
+blur = true
+padding = { x = 12, y = 12 }
+decorations = "full"
+dynamic_title = true
 
 [font]
-normal = { family = "FiraCode Nerd Font", style = "Regular" }
+normal = { family = "Iosevka Nerd Font", style = "Regular" }
+bold = { family = "Iosevka Nerd Font", style = "Bold" }
+italic = { family = "Iosevka Nerd Font", style = "Italic" }
+bold_italic = { family = "Iosevka Nerd Font", style = "Bold Italic" }
 
-size = 11.0
+size = 12.0 # Iosevka runs a bit slim, so 12.0 usually hits the sweet spot
+
+# Tuning the glyph alignment for Iosevka
+offset = { x = 0, y = 1 }
+glyph_offset = { x = 0, y = 0 }
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+blink_interval = 500
+unfocused_hollow = true
+
+[scrolling]
+history = 10000
+multiplier = 3
 
 [env]
 TERM = "xterm-256color"
+
+[selection]
+save_to_clipboard = true
